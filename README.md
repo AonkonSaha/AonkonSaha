@@ -18,12 +18,12 @@
 [![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AonkonSaha)
 
 #### System Architecture Highlights
-* **⚡Secure Code Execution:** Integrated Judge0 Like Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
-* **📡 Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA` etc) to clients instantly, eliminating HTTP polling overhead.
-* **🧠 Caching Layer:** Utilized *Redis* for frequently accessed data such as problem metadata, contest information, leaderboards, and user session-related state, reducing unnecessary database queries during high-traffic operations.
-* **🔐 Enterprise Security & Auth:** Designed JWT-based authentication with Google OAuth 2.0 and role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
-* **🏆 Contest & Evaluation Engine:** Built automated contest workflows including real-time standings, submission tracking, leaderboard freezing, penalty calculation, and contest lifecycle management.
-* **🎁 Gamification & Engagement:** Implemented coin-based gamification where users earn rewards for solving problems, daily login and participate in contests to earn coins, then redeem them for t-shirts and exciting gifts.
+* **Secure Code Execution:** Integrated Judge0 Like Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
+* **Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA` etc) to clients instantly, eliminating HTTP polling overhead.
+* **Caching Layer:** Utilized *Redis* for frequently accessed data such as problem metadata, contest information, leaderboards, and user session-related state, reducing unnecessary database queries during high-traffic operations.
+* **Enterprise Security & Auth:** Designed JWT-based authentication with Google OAuth 2.0 and role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
+* **Contest & Evaluation Engine:** Built automated contest workflows including real-time standings, submission tracking, leaderboard freezing, penalty calculation, and contest lifecycle management.
+* **Gamification & Engagement:** Implemented coin-based gamification where users earn rewards for solving problems, daily login and participate in contests to earn coins, then redeem them for t-shirts and exciting gifts.
 
 #### Tech Stack
 `Java` • `Spring Boot` • `React` • `RDBMS (PostgreSQL)` • `Tailwind CSS` • `WebSocket` • `Redis` • `Judge0` • `Docker` 
@@ -36,11 +36,11 @@
 [![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
 
 #### System Architecture Highlights
-* **☁️ Edge-Based Crawler Optimization:** Deployed **Cloudflare Workers** at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
-* **⚡ Content Management Pipeline:** Developed a dedicated administrative CMS enabling editors to efficiently create, manage, publish, and organize news content and media through a streamlined publishing workflow.
-* **📈 High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
-* **📈 Database & Performance Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval and maintain responsive performance during high-traffic breaking-news events.
-* **🌐 SEO & Social Sharing:** Structured content delivery and metadata generation to improve search-engine discoverability and provide optimized previews when articles are shared across social platforms.
+* **Edge-Based Crawler Optimization:** Deployed **Cloudflare Workers** at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
+* **Content Management Pipeline:** Developed a dedicated administrative CMS enabling editors to efficiently create, manage, publish, and organize news content and media through a streamlined publishing workflow.
+* **High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
+* **Database & Performance Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval and maintain responsive performance during high-traffic breaking-news events.
+* **SEO & Social Sharing:** Structured content delivery and metadata generation to improve search-engine discoverability and provide optimized previews when articles are shared across social platforms.
 
 #### Tech Stack
 `Java` • `Spring Boot` • `React` • `Cloudflare Workers` • `PostgreSQL` • `Tailwind CSS`
