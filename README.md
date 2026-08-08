@@ -36,7 +36,7 @@
 [![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
 
 #### System Architecture Highlights
-* **Edge-Based Crawler Optimization:** Deployed **Cloudflare Workers** at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
+* **Edge-Based Crawler Optimization:** Deployed *Cloudflare Workers* at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
 * **Content Management Pipeline:** Developed a dedicated administrative CMS enabling editors to efficiently create, manage, publish, and organize news content and media through a streamlined publishing workflow.
 * **High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
 * **Database & Performance Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval and maintain responsive performance during high-traffic breaking-news events.
