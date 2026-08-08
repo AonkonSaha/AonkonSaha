@@ -14,7 +14,7 @@
 ### 1. 🚀 CodeShian — Online Judge & Competitive Programming Platform
 > **Personal Project** | *CodeShian is an online judge platform where programmers solve coding problems, participate in contests, and improve algorithms and data structures skills.*
 
-[![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
+[![Live Platform](https://img.shields.io/badge/Live_Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AonkonSaha)
 
 #### System Architecture Highlights
