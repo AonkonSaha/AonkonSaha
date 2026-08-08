@@ -7,43 +7,44 @@
 
 ---
 
-## 🛠️ Featured Projects
+## 🛠️ Featured Engineering Projects
 
 <br />
 
 ### 1. 🚀 CodeShian Online Judge
-> **Personal Project** | *A modern, real-time Online Judge platform featuring isolated code sandboxing, live WebSocket verdicts, Redis-cached leaderboards, and a gamified reward system.*
+> **Personal Project** | *A distributed, real-time code execution and evaluation system supporting competitive programming and automated contests.*
 
 [![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AonkonSaha)
 
-#### Key Highlights
-* **⚡ Live Code Evaluation:** Executes code inside a secure Docker-based sandbox (Judge0). Testcase verdicts stream in real-time via WebSocket without client polling overhead.
-* **🧠 High-Performance Caching:** Integrated Redis to cache problem metadata, active contest leaderboards, and execution states to handle heavy concurrent submission traffic.
-* **🔐 OAuth 2.0 & Role-Based Security:** Features JWT authentication, Google OAuth 2.0, and granular access control for `NORMAL_USER`, `PROBLEM_EDITOR`, and `ADMIN`.
-* **🎁 Gamified Rewards:** Daily login coin system and problem-solving rewards redeemable for physical swag (T-shirts, hoodies, goodies).
+#### System Architecture Highlights
+* **⚡ Isolated Sandbox Execution:** Executes untrusted user code inside a secure, containerized execution environment (Judge0 / Docker) with enforced memory and CPU limits.
+* **📡 Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA`) to clients instantly, eliminating HTTP polling overhead.
+* **🧠 Sub-Millisecond Caching Layer:** Leveraged Redis to cache high-frequency read data (problem sets, live contest leaderboards, user session states), significantly decreasing database read pressure under burst submission loads.
+* **🔐 Enterprise Security & Auth:** Designed multi-tenant access control with JWT and Google OAuth 2.0 supporting role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
+* **🎁 Gamified Mechanics:** Features an integrated reward ledger and daily login coin economy to drive active user retention.
 
 #### Tech Stack
-`Java` • `Spring Boot` • `React` • `WebSocket` • `Redis` • `PostgreSQL / MySQL` • `Docker (Judge0)` • `Tailwind CSS`
+`Java` • `Spring Boot` • `React` • `WebSocket` • `Redis` • `PostgreSQL` • `MySQL` • `Docker` • `Tailwind CSS`
 
 ---
 
 ### 2. 📰 BWN News Portal
-> **Client Project** | *A high-performance digital news portal built for real-time editorial updates, fast reader engagement, edge caching, and high concurrent web traffic.*
+> **Client Project** | *A high-concurrency digital media platform engineered for rapid editorial publication, sub-second page delivery, and intelligent social crawler optimization.*
 
 [![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
 
-#### Key Highlights
-* **⚡ Dynamic CMS:** Tailored administration panel built for editorial teams to rapidly create and publish real-time breaking news.
-* **☁️ Edge Infrastructure:** Utilizes Cloudflare Workers for ultra-low latency response times, edge caching, and global scalability under heavy loads.
-* **🚀 Speed & Performance:** Modern React frontend paired with a robust Spring Boot backend for optimal speed and mobile responsiveness.
+#### System Architecture Highlights
+* **☁️ Edge-Based Crawler Optimization:** Deployed **Cloudflare Workers** at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
+* **⚡ Content Management Pipeline:** Purpose-built administrative CMS optimized for low-latency media publishing and fast editorial workflows.
+* **📈 High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
 
 #### Tech Stack
-`Java` • `Spring Boot` • `React` • `PostgreSQL` • `Tailwind CSS` • `Cloudflare Workers`
+`Java` • `Spring Boot` • `React` • `Cloudflare Workers` • `PostgreSQL` • `Tailwind CSS`
 
 ---
 
-## 💻 Tech Stack & Frameworks
+## 💻 Technical Capabilities
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
@@ -58,7 +59,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Performance
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AonkonSaha&show_icons=true&theme=radial" width="48%" />
@@ -67,8 +68,8 @@
 
 ---
 
-## 📫 Connect & Reach Me
+## 📫 Connect with Me
 
-* 🌐 CodeShian Platform: [codeshian.com](https://www.codeshian.com)
+* 🌐 Platform: [codeshian.com](https://www.codeshian.com)
 * 💼 LinkedIn: [linkedin.com/in/aonkonsaha](https://linkedin.com/in/aonkonsaha)
 * 📧 Email: aonkonpustcse@gmail.com
