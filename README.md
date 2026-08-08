@@ -11,33 +11,36 @@
 
 <br />
 
-### 1. 🚀 CodeShian Online Judge
-> **Personal Project** | *A distributed, real-time code execution and evaluation system supporting competitive programming and automated contests.*
+### 1. 🚀 CodeShian — Online Judge & Competitive Programming Platform
+> **Personal Project** | *CodeShian is an online judge platform where programmers solve coding problems, participate in contests, and improve algorithms and data structures skills.*
 
 [![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AonkonSaha)
 
 #### System Architecture Highlights
-* **⚡ Isolated Sandbox Execution:** Executes untrusted user code inside a secure, containerized execution environment (Judge0 / Docker) with enforced memory and CPU limits.
-* **📡 Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA`) to clients instantly, eliminating HTTP polling overhead.
-* **🧠 Sub-Millisecond Caching Layer:** Leveraged Redis to cache high-frequency read data (problem sets, live contest leaderboards, user session states), significantly decreasing database read pressure under burst submission loads.
-* **🔐 Enterprise Security & Auth:** Designed multi-tenant access control with JWT and Google OAuth 2.0 supporting role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
-* **🎁 Gamified Mechanics:** Features an integrated reward ledger and daily login coin economy to drive active user retention.
+* **⚡Secure Code Execution:** Integrated Judge0 Like Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
+* **📡 Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA` etc) to clients instantly, eliminating HTTP polling overhead.
+* **🧠 Caching Layer:** Utilized *Redis* for frequently accessed data such as problem metadata, contest information, leaderboards, and user session-related state, reducing unnecessary database queries during high-traffic operations.
+* **🔐 Enterprise Security & Auth:** Designed JWT-based authentication with Google OAuth 2.0 and role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
+* **🏆 Contest & Evaluation Engine:** Built automated contest workflows including real-time standings, submission tracking, leaderboard freezing, penalty calculation, and contest lifecycle management.
+* **🎁 Gamification & Engagement:** Implemented coin-based gamification where users earn rewards for solving problems, daily login and participate in contests to earn coins, then redeem them for t-shirts and exciting gifts.
 
 #### Tech Stack
-`Java` • `Spring Boot` • `React` • `WebSocket` • `Redis` • `PostgreSQL` • `MySQL` • `Docker` • `Tailwind CSS`
+`Java` • `Spring Boot` • `React` • `RDBMS (PostgreSQL)` • `Tailwind CSS` • `WebSocket` • `Redis` • `Judge0` • `Docker` 
 
 ---
 
 ### 2. 📰 BWN News Portal
-> **Client Project** | *A high-concurrency digital media platform engineered for rapid editorial publication, sub-second page delivery, and intelligent social crawler optimization.*
+> **Client Project** | *A modern digital news platform designed for fast content publishing, scalable traffic handling, and optimized social-media link previews.*
 
 [![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
 
 #### System Architecture Highlights
 * **☁️ Edge-Based Crawler Optimization:** Deployed **Cloudflare Workers** at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
-* **⚡ Content Management Pipeline:** Purpose-built administrative CMS optimized for low-latency media publishing and fast editorial workflows.
+* **⚡ Content Management Pipeline:** Developed a dedicated administrative CMS enabling editors to efficiently create, manage, publish, and organize news content and media through a streamlined publishing workflow.
 * **📈 High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
+* **📈 Database & Performance Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval and maintain responsive performance during high-traffic breaking-news events.
+* **🌐 SEO & Social Sharing:** Structured content delivery and metadata generation to improve search-engine discoverability and provide optimized previews when articles are shared across social platforms.
 
 #### Tech Stack
 `Java` • `Spring Boot` • `React` • `Cloudflare Workers` • `PostgreSQL` • `Tailwind CSS`
