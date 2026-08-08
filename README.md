@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm [Your Name]</h1>
-<h3 align="center">Full-Stack Developer | Passionate about Scalable Systems & Modern Web Apps</h3>
+<h1 align="center">Hi 👋, I'm Aonkon Saha</h1>
+<h3 align="center">Backend & Full-Stack Developer | Passionate about Scalable Systems & Modern Web Apps</h3>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20To%20My%20Profile&fontSize=40" width="100%"/>
@@ -14,8 +14,7 @@
 ### 1. ⚙️ CodeShian Online Judge
 > **Personal Project** | *A competitive programming platform built to evaluate and execute code snippets securely in real-time.*
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_CODESHIAN_LIVE_URL_HERE)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](YOUR_CODESHIAN_REPO_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
 
 **Key Features:**
 * 🎯 Real-time code execution with custom test cases.
@@ -30,7 +29,7 @@
 ### 2. 📰 BWN News Portal
 > **Client Project** | *A high-performance news portal designed for real-time editorial updates, fast reader engagement, and high concurrent traffic.*
 
-[![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](YOUR_BWN_NEWS_LIVE_URL_HERE)
+[![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
 
 **Key Features:**
 * ⚡ Dynamic content management system (CMS) tailored for editorial teams.
@@ -56,17 +55,17 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=radial" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=radial" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AonkonSaha&show_icons=true&theme=radial" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonkonSaha&layout=compact&theme=radial" width="48%" />
 </p>
 
 ---
 
 ## 📫 Get in Touch
 
-* 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
-* 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-* 📧 Email: your.email@example.com
+* 🌐 CodeShian Platform: [codeshian.com](https://www.codeshian.com)
+* 💼 LinkedIn: [linkedin.com/in/aonkonsaha](https://linkedin.com/in/aonkonsaha)
+* 📧 Email: aonkon.saha@example.com
