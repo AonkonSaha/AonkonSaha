@@ -15,7 +15,6 @@
 > **Personal Project** | *CodeShian is an online judge platform where programmers solve coding problems, participate in contests, and improve algorithms and data structures skills.*
 
 [![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AonkonSaha)
 
 #### System Architecture Highlights
 * **Secure Code Execution:** Integrated Judge0 Like Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
