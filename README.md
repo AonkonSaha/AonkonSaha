@@ -11,7 +11,7 @@
 
 <br />
 
-### 1. 🚀 CodeShian — Online Judge & Competitive Programming Platform
+### 1. CodeShian — Online Judge & Competitive Programming Platform
 > **Personal Project** | *CodeShian is an online judge platform where programmers solve coding problems, participate in contests, and improve algorithms and data structures skills.*
 
 [![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
@@ -29,7 +29,7 @@
 
 ---
 
-### 2. 📰 BWN News Portal
+### 2. BWN News Portal
 > **Client Project** | *A modern digital news platform designed for fast content publishing, scalable traffic handling, and optimized social-media link previews.*
 
 [![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
