@@ -17,7 +17,7 @@
 [![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
 
 #### System Architecture Highlights
-* **Secure Code Execution:** Integrated Judge0 Like Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
+* **Secure Code Execution:** Integrated Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
 * **Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA` etc) to clients instantly, eliminating HTTP polling overhead.
 * **Caching Layer:** Utilized *Redis* for frequently accessed data such as problem metadata, contest information, leaderboards, and user session-related state, reducing unnecessary database queries during high-traffic operations.
 * **Enterprise Security & Auth:** Designed JWT-based authentication with Google OAuth 2.0 and role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
@@ -25,7 +25,7 @@
 * **Gamification & Engagement:** Implemented coin-based gamification where users earn rewards for solving problems, daily login and participate in contests to earn coins, then redeem them for t-shirts and exciting gifts.
 
 #### Tech Stack
-`Java` • `Spring Boot` • `React` • `RDBMS (PostgreSQL)` • `Tailwind CSS` • `WebSocket` • `Redis` • `Judge0` • `Docker` 
+`Java` • `Spring Boot` • `React` • `RDBMS (PostgreSQL)` • `Tailwind CSS` • `WebSocket` • `Redis` • `Docker` 
 
 ---
 
