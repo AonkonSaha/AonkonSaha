@@ -1,77 +1,162 @@
-<h1 align="center">Hi 👋, I'm Aonkon Saha</h1>
-<h3 align="center">Software Engineer | Spring Boot & Distributed Systems Enthusiast</h3>
+# Hi 👋, I'm Aonkon Saha
+
+### Software Engineer | Java | Spring Boot | Backend Engineering | Distributed Systems
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20To%20My%20Profile&fontSize=40" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08783E,100:00C9A7&height=200&section=header&text=Building%20Scalable%20Software&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 </p>
+
+<p align="center">
+  <a href="https://www.codeshian.com"><img src="https://img.shields.io/badge/CodeShian-Live%20Platform-08783E?style=for-the-badge" alt="CodeShian" /></a>
+  <a href="https://linkedin.com/in/aonkonsaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:aonkonpustcse@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+## 👨‍💻 About Me
+
+I'm a software engineer passionate about building **scalable backend systems, secure REST APIs, and high-performance web applications**.
+
+My primary focus is Java and Spring Boot, with an interest in distributed systems, database optimization, application security, and system architecture. I enjoy solving complex engineering problems and turning ideas into reliable, production-oriented software.
+
+- 🔭 Building and improving **CodeShian**, an online judge and competitive programming platform.
+- ⚙️ Developing backend services with Java, Spring Boot, PostgreSQL, and Redis.
+- 🧠 Exploring system design, distributed systems, database performance, and application security.
+- 🐳 Working with Docker-based code execution and automated evaluation systems.
+- 🌱 Continuously learning better ways to design, build, and scale software.
+- 🎯 Goal: Engineer reliable systems that solve real-world problems.
 
 ---
 
-## 🛠️ Featured Engineering Projects
-
-<br />
+## 🚀 Featured Projects
 
 ### 1. CodeShian — Online Judge & Competitive Programming Platform
-> **Personal Project** | *CodeShian is an online judge platform where programmers solve coding problems, participate in contests, and improve algorithms and data structures skills.*
 
-[![Live Platform](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codeshian.com)
+**Type:** Personal Project | [🌐 Live Platform](https://www.codeshian.com)
 
-#### System Architecture Highlights
-* **Secure Code Execution:** Integrated Docker-based sandboxing to execute untrusted user-submitted programs with controlled CPU and memory limits, supporting automated test-case evaluation and verdict generation.
-* **Real-Time Event Streaming:** Implemented WebSocket channels to stream per-testcase execution states (`Running` → `Accepted` / `TLE` / `WA` etc) to clients instantly, eliminating HTTP polling overhead.
-* **Caching Layer:** Utilized *Redis* for frequently accessed data such as problem metadata, contest information, leaderboards, and user session-related state, reducing unnecessary database queries during high-traffic operations.
-* **Enterprise Security & Auth:** Designed JWT-based authentication with Google OAuth 2.0 and role-based access control (`NORMAL_USER`, `PROBLEM_EDITOR`, `ADMIN`).
-* **Contest & Evaluation Engine:** Built automated contest workflows including real-time standings, submission tracking, leaderboard freezing, penalty calculation, and contest lifecycle management.
-* **Gamification & Engagement:** Implemented coin-based gamification where users earn rewards for solving problems, daily login and participate in contests to earn coins, then redeem them for t-shirts and exciting gifts.
+CodeShian is an online judge platform where developers practice programming problems, participate in contests, track their performance, and improve their algorithmic problem-solving skills.
 
-#### Tech Stack
-`Java` • `Spring Boot` • `React` • `RDBMS (PostgreSQL)` • `Tailwind CSS` • `WebSocket` • `Redis` • `Docker` 
+**Key Engineering Highlights**
 
----
+- **Secure Code Execution:** Docker-based sandboxing for running untrusted submissions with controlled CPU and memory resources.
+- **Automated Evaluation Engine:** Executes test cases, evaluates program output, and generates verdicts such as Accepted, Wrong Answer, and Time Limit Exceeded.
+- **Real-Time Updates:** WebSocket communication for streaming submission execution progress and test-case results to clients.
+- **Caching & Performance:** Redis caching for frequently accessed problem data, contest information, leaderboards, and other suitable data.
+- **Authentication & Authorization:** JWT-based authentication, Google OAuth 2.0 integration, and role-based access control.
+- **Contest Management:** Contest lifecycle management, live standings, leaderboard freezing, submission tracking, and penalty calculations.
+- **Gamification System:** Coin rewards for solving problems, daily logins, and contest participation, with rewards redeemable for merchandise and gifts.
 
-### 2. BWN News Portal
-> **Client Project** | *A modern digital news platform designed for fast content publishing, scalable traffic handling, and optimized social-media link previews.*
+**Tech Stack**
 
-[![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.bwnnews.com)
-
-#### System Architecture Highlights
-* **Edge-Based Crawler Optimization:** Deployed *Cloudflare Workers* at the network edge to intercept incoming traffic from social media crawlers (Facebook, WhatsApp, Twitter, Discord). Dynamically injects Open Graph meta tags and renders link previews instantly without hitting origin server rendering bottlenecks.
-* **Content Management Pipeline:** Developed a dedicated administrative CMS enabling editors to efficiently create, manage, publish, and organize news content and media through a streamlined publishing workflow.
-* **High Traffic Resilience:** Structured database schema and query execution plans in PostgreSQL to ensure sustained uptime during breaking news traffic spikes.
-* **Database & Performance Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval and maintain responsive performance during high-traffic breaking-news events.
-* **SEO & Social Sharing:** Structured content delivery and metadata generation to improve search-engine discoverability and provide optimized previews when articles are shared across social platforms.
-
-#### Tech Stack
-`Java` • `Spring Boot` • `React` • `Cloudflare Workers` • `PostgreSQL` • `Tailwind CSS`
+`Java` `Spring Boot` `React` `PostgreSQL` `Redis` `Docker` `WebSocket` `Tailwind CSS`
 
 ---
 
-## 💻 Technical Capabilities
+### 2. BWN News Portal — Digital News Publishing Platform
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+**Type:** Client Project | [🌐 Live Website](https://www.bwnnews.com)
+
+A digital news platform built to streamline content publishing, support efficient article delivery, and improve social media sharing previews.
+
+**Key Engineering Highlights**
+
+- **Edge-Based Metadata Delivery:** Cloudflare Workers intercept supported social media crawler requests and dynamically provide Open Graph metadata for article previews.
+- **Content Management System:** Developed administrative workflows for creating, editing, publishing, and organizing news articles and media.
+- **Database Optimization:** Designed and optimized PostgreSQL schemas and queries to support efficient content retrieval.
+- **Traffic Resilience:** Focused on efficient data access and application performance during periods of increased news traffic.
+- **SEO & Social Sharing:** Implemented metadata delivery to improve article discoverability and generate rich previews across supported platforms.
+
+**Tech Stack**
+
+`Java` `Spring Boot` `React` `PostgreSQL` `Cloudflare Workers` `Tailwind CSS`
+
+---
+
+### 3. VT Tracker — Vehicle Trip & Cantonment Gate Management System
+
+**Type:** Backend & Mobile Application Project
+
+A vehicle movement and trip management system designed to digitize vehicle movement requests, cantonment entry and exit verification, trip tracking, and administrative monitoring.
+
+**Key Engineering Highlights**
+
+- **Movement Request Management:** Digital workflows for submitting, reviewing, approving, and tracking vehicle movement requests.
+- **QR-Based Gate Verification:** Gate QR codes support cantonment entry and exit verification workflows.
+- **Trip Lifecycle Management:** Tracks trip statuses and connects movement requests with trip records.
+- **Location Tracking:** Captures location information for supported trip-monitoring workflows.
+- **Role-Based Access Control:** Separate administrative and driver workflows with secured API access.
+- **Mobile Integration:** Flutter application integrated with Spring Boot REST APIs.
+
+**Tech Stack**
+
+`Java` `Spring Boot` `PostgreSQL` `Flutter` `JWT` `REST APIs` `QR Code`
+
+---
+
+## 🛠️ Technical Skills
+
+### Backend Development
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/WebSocket-333333?style=flat-square" alt="WebSocket" />
+</p>
+
+### Databases & Caching
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white" alt="SQL" />
+</p>
+
+### Frontend & Mobile
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+</p>
+
+### Infrastructure & Tools
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
 ---
 
-## 📊 GitHub Performance
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AonkonSaha&show_icons=true&theme=radial" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonkonSaha&layout=compact&theme=radial" width="48%" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonkonSaha&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonkonSaha&layout=compact&theme=radical&hide_border=true" alt="Most Used Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AonkonSaha&theme=radical&hide_border=true" alt="GitHub Contribution Streak" />
 </p>
 
 ---
 
-## 📫 Connect with Me
+## 🤝 Let's Connect
 
-* 🌐 Platform: [codeshian.com](https://www.codeshian.com)
-* 💼 LinkedIn: [linkedin.com/in/aonkonsaha](https://linkedin.com/in/aonkonsaha)
-* 📧 Email: aonkonpustcse@gmail.com
+I'm always interested in discussing backend engineering, Java, Spring Boot, system design, and building useful software.
+
+<p>
+  <a href="https://www.codeshian.com">🌐 CodeShian</a> •
+  <a href="https://linkedin.com/in/aonkonsaha">💼 LinkedIn</a> •
+  <a href="mailto:aonkonpustcse@gmail.com">📧 Email</a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Great software is built through thoughtful design, continuous learning, and consistent improvement."</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08783E,100:00C9A7&height=100&section=footer" width="100%" />
+</p>
